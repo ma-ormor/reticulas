@@ -1,0 +1,5 @@
+Invoke-WebRequest 
+-UseBasicParsing http://localhost/reticulas/api/materia/crear.php 
+-ContentType "application/json" 
+-Method POST 
+-Body "{'id':'xyz', 'nombre':'abc', 'horas':'123'}"
