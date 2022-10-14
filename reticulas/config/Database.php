@@ -1,10 +1,10 @@
 <?php
 class Database{
   // Parametros de la BD
-  private $host = 'localhost';
+  private $host = '192.168.100.50';
   private $db_name = 'reticulas';
   private $username = 'root'; 
-  private $password = ''; 
+  private $password = 'pass'; 
   private $conn;
 
   // Conexión a la BD
