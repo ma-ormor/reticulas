@@ -14,9 +14,6 @@ $datos = json_decode(file_get_contents("php://input"));
 
 $materia->id = $datos->id;
 $materia->nombre = $datos->nombre;
-$materia->hTeoria = $datos->h_teoria;
-$materia->hPractica = $datos->h_practica;
-$materia->hTotal = $datos->h_total;
 
 if($materia->update())
   echo json_encode(

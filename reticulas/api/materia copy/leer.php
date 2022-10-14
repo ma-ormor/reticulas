@@ -23,10 +23,7 @@ if($num > 0){
     
     $materiasItem = array(
       'id' => $m_id, 
-      'nombre' => $m_nombre,
-      'horasteoria' => $m_h_teoria,
-      'horaspractica' => $m_h_practica,
-      'horastotal' => $m_h_total
+      'nombre' => $m_nombre
     );
     
     array_push($materias['datos'], $materiasItem);
