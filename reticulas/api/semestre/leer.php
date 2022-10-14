@@ -22,8 +22,8 @@ if($num > 0){
     extract($fila); 
     
     $semestresItem = array(
-      'id' => $c_id, 
-      'nombre' => $m_id,
+      'carrera' => $c_id, 
+      'materia' => $m_id,
       'semestre' =>  $s_numero
     );
     
